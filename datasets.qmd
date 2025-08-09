@@ -1,0 +1,17 @@
+---
+title: "Datasets from R"
+date:  last-modified
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r setup, include=FALSE}
+#| label: iris
+
+write_csv(iris, "iris.csv.gz")
+```
+
+
