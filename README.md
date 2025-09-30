@@ -14,6 +14,10 @@ All original works, authors, collectors and resources gratefully acknowledged an
 | MNIST | Yann LeCun [^3] | Yann LeCun, Corinna Cortes, Christopher J.C. Burges | 1998 | unrestricted |
 | iris.csv.gz | R Core Team [^4] | Ronald A. Fisher | 1936 | unrestricted |
 
+
+## checksums
+shasum -a 256 *gz > checksum.txt
+
 ## References
 
 [^1]:  National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global Significant Volcanic Eruptions Database. NOAA National Centers for Environmental Information. doi:10.7289/V5JW8BSH [2024/08/09]. 
